@@ -1,3 +1,4 @@
+#pragma once
 #include"../include/quickSort.h"
 
 void quickSort1(vector<int>& arr, int begin, int end)
@@ -34,6 +35,6 @@ void quickSort2(vector<int> &arr, int begin, int end)
     }
     arr[begin] = arr[i];
     arr[i] = temp;
-    quickSort1(arr, begin, i - 1);
-    quickSort1(arr, i + 1, end);
+    quickSort2(arr, begin, i - 1);
+    quickSort2(arr, i + 1, end);
 }

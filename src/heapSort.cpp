@@ -1,4 +1,4 @@
-#include"heapSort.h"
+#include"../include/heapSort.h"
 
 void heapBuild(vector<int> &arr, int start, int end)
 {

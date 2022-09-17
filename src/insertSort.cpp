@@ -1,4 +1,4 @@
-#include"insertSort.h"
+#include"../include/insertSort.h"
 
 void insertSort(vector<int> &arr)
 {

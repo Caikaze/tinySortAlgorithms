@@ -2,7 +2,7 @@
 冒泡排序(升序)的基本思想是每次都从头开始两两比较相邻的元素，将较大的元素换到后面
 因此，每次都会有一个元素达到最终的排序位置，根据这个思路实现了如下代码
 */
-#include"bubbleSort.h"
+#include"../include/bubbleSort.h"
 
 void bubbleSort(vector<int> &arr)
 {

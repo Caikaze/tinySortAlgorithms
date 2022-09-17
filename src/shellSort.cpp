@@ -1,4 +1,4 @@
-#include"shellSort.h"
+#include"../include/shellSort.h"
 
 void shellSort(vector<int> &arr)
 {

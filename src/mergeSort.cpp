@@ -1,4 +1,4 @@
-#include"mergeSort.h"
+#include"../include/mergeSort.h"
 
 void mergeSort(vector<int> &arr, int start, int end)
 {

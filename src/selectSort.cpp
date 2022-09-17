@@ -1,4 +1,4 @@
-#include"selectSort.h"
+#include"../include/selectSort.h"
 
 void selectSort(vector<int> &arr)
 {
